@@ -90,6 +90,22 @@
   \vspace{-2\parskip}
 }
 
+\newcommand{\headerwithjob}[3]{%
+   \begin{tikzpicture}[remember picture,overlay]
+     \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth, minimum height=4cm] (box) at (current page.north){};
+     \node [anchor=center] (name) at (box) {%
+       \fontsize{40pt}{72pt}\color{header}%
+       {\thinfont #1}{\bodyfont  #2}
+     };
+     \node [anchor=north] at (name.south) {%
+       \fontsize{14pt}{24pt}\color{header}%
+       \bodyfont #3%
+     };
+   \end{tikzpicture}
+   \vspace{3.5cm}
+   \vspace{-2\parskip}
+ }
+
 %----------------------------------------------------------------------------------------
 %	Last updated command %
 %----------------------------------------------------------------------------------------
@@ -193,7 +209,7 @@
   \renewcommand{\section}[1]{
     \par\vspace{\baselineskip}{\Large\headingfont\color{headercolor} ##1}
   }
-  \begin{textblock}{3.6}(1, 1.87)
+  \begin{textblock}{3.6}(1, 4.3)
   \begin{flushright}
   \obeycr
 }{%
