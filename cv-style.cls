@@ -60,13 +60,13 @@
 %-\newfontfamily\thinfont{Roboto-Thin}[Path=fonts/]
 %-\newfontfamily\headingfont{RobotoCondensed-Bold}[Path=fonts/]
 
-\newfontfamily\bodyfont{Oswald-Medium}[Path=fonts/]
-\newfontfamily\bodyfontit{Oswald-Medium}[Path=fonts/]
-\newfontfamily\thinfont{Oswald-Medium}[Path=fonts/]
+\newfontfamily\bodyfont{Montserrat-Bold}[Path=fonts/]
+\newfontfamily\bodyfontit{Montserrat-LightItalic}[Path=fonts/]
+\newfontfamily\thinfont{Montserrat-Thin}[Path=fonts/]
 \newfontfamily\headingfont{Oswald-Medium}[Path=fonts/]
 
 \defaultfontfeatures{Mapping=tex-text}
-\setmainfont[Mapping=tex-text, Color=textcolor, Path = fonts/]{Oswald-Medium}
+\setmainfont[Mapping=tex-text, Color=textcolor, Path = fonts/]{Montserrat-Regular}
 
 \newcommand{\italica}[1]{%
     {\color{gray}\bodyfontit #1}%
