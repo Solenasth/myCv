@@ -98,8 +98,8 @@
        {\thinfont #1}{\bodyfont  #2}
      };
      \node [anchor=north] at (name.south) {%
-       \fontsize{14pt}{24pt}\color{header}%
-       \bodyfont #3%
+       \fontsize{18pt}{24pt}\color{header}%
+       \thinfont #3%
      };
    \end{tikzpicture}
    \vspace{3.5cm}
@@ -132,7 +132,7 @@
 \newcommand{\lastupdated}{ 
   \begin{textblock}{10}(11.3, 0.05)
     \raggedleft
-    \fontsize{8pt}{10pt}\color{date}\thinfont 
+    \fontsize{10pt}{10pt}\color{date}\thinfont 
     \lastupdatedtext{} \today
   \end{textblock}}
 
