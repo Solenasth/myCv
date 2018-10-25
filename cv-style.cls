@@ -65,6 +65,7 @@
 \newfontfamily\thinfont{Montserrat-Thin}[Path=fonts/]
 \newfontfamily\headingfont{Oswald-Medium}[Path=fonts/]
 
+
 \defaultfontfeatures{Mapping=tex-text}
 \setmainfont[Mapping=tex-text, Color=textcolor, Path = fonts/]{Montserrat-Regular}
 
